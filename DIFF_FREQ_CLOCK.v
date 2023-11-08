@@ -2,20 +2,16 @@
 
 
 
-// MMCME2_ADV  : In order to incorporate this function into the design,
-//   Verilog   : the following instance declaration needs to be placed
-//  instance   : in the body of the design code.  The instance name
-// declaration : (MMCME2_ADV_inst) and/or the port declarations within the
-//    code     : parenthesis may be changed to properly reference and
-//             : connect this function to the design.  All inputs
-//             : and outputs must be connected.
+//////////////////////////////////////////////////////////////////////////////////
+// Company: NATIONAL INSTITUTE OF TECHNOLOGY WARANGAL
+// Engineer: NARENDRA KUMAR NEHRA 
+// 
+// Create Date: 11.07.2023 03:18:14
+// Design Name: 
+// Module Name: DIFF_FREQ_CLOCK
+//////////////////////////////////////////////////////////////////////////////////
 
-//  <-----Cut code below this line---->
-
-   // MMCME2_ADV: Advanced Mixed Mode Clock Manager
-   //             Artix-7
-   // Xilinx HDL Language Template, version 2023.1
-module DIFF_FREQ_CLOC(
+module DIFF_FREQ_CLOCK(
                   input CLKIN1,
                   input RST,
                   output CLK_OUT_0,
